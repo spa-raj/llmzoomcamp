@@ -1,0 +1,155 @@
+"source_name","node_set_category","filename","content","_dlt_load_id","_dlt_id"
+"data_samples/api.slack.com","data_samples/api.slack.com","https___api.slack.com_.txt","https://api.slack.com/Customize your Slack experience with apps using a wide range of APIs.
+
+Block Kit lets you build interfaces without a UI designer. It's available for use in surfaces across all devices without any extra code.
+
+We want to update you about our previous announcement regarding the retirement of our old documentation experience on api.slack.com. We have moved the date from the end of **June 2025** to the end of **August 2025**.
+
+Version `3.3.0`
+
+of the developer tools for the Slack platform has arrived!
+
+`arm64`
+
+build for developers upgrading.`.git`
+
+within the URL, the template would fail to be cloned (for example, when running the `slack create --template https://github.com/slack-samples/example.git.project.git`
+
+command).`source`
+
+using the flag for the `slack manifest info`
+
+command now takes precedence to project configurations, which are used to determine the default source.We'd like to add additional clarity to the recent rate limits change for the `conversations.history`
+
+and `conversations.replies`
+
+Web API methods. Any internal customer-built apps created before May 29th, 2025 will maintain their existing rate limits and will not be subject to the new posted limits. Read the updated FAQ for more info, and please continue to reach out with questions!
+
+We're making clarifications to the API Terms of Service that will take effect immediately for new apps and on June 30, 2025 for existing apps. Please read the terms in full, but below is a summary of what’s changing:
+
+We're updating the rate limits for the `conversations.history`
+
+and `conversations.replies`
+
+Web API methods methods for non-Marketplace apps. This rate limit reduction will immediately affect new applications and new installations of non-Marketplace applications. The new rate limits will be applied to existing installations of unlisted, distributed applications published outside the Marketplace on September 2, 2025. The new rate limits will be updated to allow 1 request per minute and will return a maximum of 15 objects per request. Read more here.
+
+Version `3.2.0`
+
+of the developer tools for the Slack platform is here!
+
+`project (local)`
+
+and `app settings (remote)`
+
+. You'll see these changes in the `slack create`
+
+, `slack init`
+
+, and `slack app link <id>`
+
+commands, for example.`slack app settings`
+
+command. Bolt developers with a remote manifest source managed within app settings may find this useful for discovering new features or making updates.`slack app link`
+
+and `slack app list`
+
+commands shown when running the `slack app --help`
+
+command now use the entire command in order to prevent potential aliasing errors.","1752135528.3416748","ZyB7WipL2WtL9g"
+"data_samples/developer.monday.com","data_samples/developer.monday.com","https___developer.monday.com_api-reference_docs_basics.txt","https://developer.monday.com/api-reference/docs/basics# The basics
+
+Read what the monday platform API can do, who can use it, and how it works
+
+Welcome to monday.com, a work OS where teams create and shape their own workflows in minutes, code-free. Our mission is to help teams outdo their best, fulfilling their potential, and collaborating more effectively.
+
+The monday GraphQL API is part of the monday apps framework. It is an application layer that allows apps to read and update data inside a monday.com account. It supports operations boards, items, column values, users, workspaces, and more.
+
+Looking for the API schema?
+
+Check out our API reference section!
+
+
+# Why use the API?
+
+There are countless use cases for the API, including:
+
+- Accessing board data to render a custom report inside a monday.com dashboard
+- Creating a new item on a board when a record is created on another system
+- Importing data from another source programmatically
+
+With the monday apps framework, developers can package their own web apps and integrations as native monday.com building blocks.
+
+# Who can use the API?
+
+**Admin**, **member**, and **guest** users are all able to utilize the monday.com API.
+
+**Admins** and **members** have access to their own API tokens. **Guests** cannot access an API key but can utilize API features through other authentication methods, like OAuth or a shortLivedToken.
+
+**Viewers**, users who have been deactivated or disabled, users with unconfirmed emails, or users on student accounts **cannot** access the API.
+
+# What monday products does the API support?
+
+The platform API currently supports the monday work management, dev, sales CRM, and service products. It currently does not support Workforms.
+
+# How does GraphQL work?
+
+The monday.com API is built with GraphQL, a flexible query language that allows you to return as much or as little data as you need. GraphQL is an application layer that parses the query you send it and returns (or changes) data accordingly. To learn more about the fundamental GraphQL components, check out our GraphQL overview!
+
+Join our developer community!
+
+We've created a community specifically for our devs where you can search through previous topics to find solutions, ask new questions, hear about new features and updates, and learn tips and tricks from other devs. Come join in on the fun! 😎
+
+
+Updated 9 months ago","1752135528.3416748","2h5NwO67GYcSHg"
+"data_samples/developer.paypal.com","data_samples/developer.paypal.com","https___developer.paypal.com_studio_checkout_advanced.txt","https://developer.paypal.com/studio/checkout/advancedAccept payments
+
+Accept one-time payments with all major debit and credit cards.
+
+Get started and customize quickly
+
+Customize your PayPal buttons and Card Fields to match your business branding.
+
+Fraud and authentication
+
+A robust risk management toolkit for PayPal merchants, and customer authentication with 3D Secure.
+
+With PayPal Expanded Checkout you can accept all major credit cards in 36 countries and 22 currencies.
+
+If you have an older Checkout integration, you can upgrade your Checkout integration. If you integrated expanded checkout with the `HostedFields`
+
+component, see Integrate PayPal buttons and Hosted Fields.
+
+**Note**: Let your payers know that PayPal is processing the payment using one of the following options:
+
+- At checkout, include this text and link to the PayPal privacy notice: ""By paying with your card, you acknowledge that your data will be processed by PayPal subject to the PayPal Privacy Statement available at PayPal.com.""
+- Before payment, include this in your privacy notice: ""We use PayPal for payments and other services. If you wish to use one of these services and pay on our website, PayPal may collect the personal data you provide, such as payment and other identifying information. PayPal uses this information to operate and improve the services it provides to us and others, including for fraud detection, harm and loss prevention, authentication, analytics related to the performance of its services, and to comply with applicable legal requirements. The processing of this information will be subject to the PayPal Privacy Statement available at PayPal.com.""
+
+PayPal Card Fields is a PCI DSS service provider. Use the Card Fields integration to comply with PCI compliance when collecting card information from buyers.
+
+Get Started Now","1752135528.3416748","78GV1hHT8K3oEw"
+"data_samples/developer.ticketmaster.com","data_samples/developer.ticketmaster.com","https___developer.paypal.com_studio_checkout_advanced.txt","https://developer.paypal.com/studio/checkout/advancedAccept payments
+
+Accept one-time payments with all major debit and credit cards.
+
+Get started and customize quickly
+
+Customize your PayPal buttons and Card Fields to match your business branding.
+
+Fraud and authentication
+
+A robust risk management toolkit for PayPal merchants, and customer authentication with 3D Secure.
+
+With PayPal Expanded Checkout you can accept all major credit cards in 36 countries and 22 currencies.
+
+If you have an older Checkout integration, you can upgrade your Checkout integration. If you integrated expanded checkout with the `HostedFields`
+
+component, see Integrate PayPal buttons and Hosted Fields.
+
+**Note**: Let your payers know that PayPal is processing the payment using one of the following options:
+
+- At checkout, include this text and link to the PayPal privacy notice: ""By paying with your card, you acknowledge that your data will be processed by PayPal subject to the PayPal Privacy Statement available at PayPal.com.""
+- Before payment, include this in your privacy notice: ""We use PayPal for payments and other services. If you wish to use one of these services and pay on our website, PayPal may collect the personal data you provide, such as payment and other identifying information. PayPal uses this information to operate and improve the services it provides to us and others, including for fraud detection, harm and loss prevention, authentication, analytics related to the performance of its services, and to comply with applicable legal requirements. The processing of this information will be subject to the PayPal Privacy Statement available at PayPal.com.""
+
+PayPal Card Fields is a PCI DSS service provider. Use the Card Fields integration to comply with PCI compliance when collecting card information from buyers.
+
+Get Started Now","1752135528.3416748","REIL3IrevDWi/g"

@@ -18,13 +18,19 @@ async def main():
     # load data
     data = pd.read_csv(source_db + "/api_sources/api_source_docs/" + filename)
 
+    if data.empty:
+        raise ValueError("CSV file is empty. No data to ingest.")
+
+    required_columns = {"content", "node_set_category"}
+    if not required_columns.issubset(data.columns):
+        raise ValueError(f"CSV missing required columns: {required_columns - set(data.columns)}")
     # add to cognee
     for idx, row in data.iterrows():
         # if you'd like to add just one doc at a time, control it from here
-        if row["node_set_category"] == "api.slack.com":
-            node_set = ["docs", row["node_set_category"]]
-            print(row["content"][:20], node_set)
-            await cognee.add(row["content"], node_set=node_set)
+        # if row["node_set_category"] == "api.slack.com":
+        node_set = ["docs", row["node_set_category"]]
+        print(row["content"][:20], node_set)
+        await cognee.add(row["content"], node_set=node_set)
 
     await cognee.cognify()
 
@@ -58,6 +64,5 @@ if __name__ == "__main__":
     # search
     #results = asyncio.run(search_cognee())
     #print(results[0])
-
 
 
