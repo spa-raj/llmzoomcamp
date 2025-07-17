@@ -197,11 +197,3 @@ cython_debug/
 #  Qdrant is a vector database. `.qdrantignore` specifies files/directories to exclude from
 #  indexing and vectorization. Recommended for sensitive data.
 .qdrant_storage/
-
-# Jupyter/PyCharm virtual documents (contains execution history and may expose secrets)
-.virtual_documents/
-
-# API Keys and sensitive configuration
-.env
-*.key
-config.json

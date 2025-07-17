@@ -32,7 +32,7 @@ def get_weather(city: str) -> float:
     return round(random.uniform(-5, 35), 1)
 
 @mcp.tool
-def set_weather(city: str, temp: float) -> None:
+def set_weather(city: str, temp: float) -> str:
     """
     Sets the temperature for a specified city.
 
