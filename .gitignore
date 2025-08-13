@@ -197,4 +197,4 @@ cython_debug/
 # Qdrant
 #  Qdrant is a vector database. `.qdrantignore` specifies files/directories to exclude from
 #  indexing and vectorization. Recommended for sensitive data.
-qdrant_storage/
+.qdrant_storage/
